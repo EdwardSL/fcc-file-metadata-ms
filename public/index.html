@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>File Metadata Microservice</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>File Metadata Microservice</h1>
+            <form id="file-form" action="/upload" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+	                <input type="file" name="file" />
+                </div>
+		        <input type="submit" class="btn btn-primary" value="Upload" />
+	        </form>
+	        <h4>用户故事</h4>
+            <ol>
+                <li>我可以通过提交一个 FormData 对象来上传文件；</li>
+                <li>当我上传一个文件后，会收到一个 JSON 格式的响应，显示文件的大小。</li>
+            </ol>
+            <h4>使用示例</h4>
+            <p>
+                访问：
+                <code>
+                    <a href='https://fcc-file-metadata-ms-liy.herokuapp.com/'>
+                        https://aqueous-falls-68815.herokuapp.com/
+                    </a>
+                </code>
+                上传文件
+            </p>
+            <h4>输出示例</h4>
+            <p>
+                <code>
+                    { "fileSize": "5546 bytes" }
+                </code>
+            </p>
+	    </div>
+    </body>
+</html>

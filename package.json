@@ -1,0 +1,27 @@
+{
+  "name": "fcc-file-metadata-ms",
+  "version": "0.0.0",
+  "description": "I can submit a FormData object that includes a file upload. When I submit something, I will receive the file size in bytes within the JSON response.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardSL/fcc-file-metadata-ms.git"
+  },
+  "author": "Li Y <eszxtfcyhuhb@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "multer": "^1.3.0",
+    "socket.io": "~0.9.14",
+    "stylus": "^0.54.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardSL/fcc-file-metadata-ms/issues"
+  },
+  "homepage": "https://github.com/EdwardSL/fcc-file-metadata-ms#readme"
+}
